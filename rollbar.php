@@ -37,7 +37,6 @@ Rollbar::log(
     array('x' => 10, 'code' => 'blue')
 );
 
-
 ?>
 
 
