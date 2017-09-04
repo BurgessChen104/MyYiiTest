@@ -4,7 +4,7 @@ php:
   - 5.6
 
 install:
-  - composer install --prefer-dist --no-dev --optimize-autoloader --quiet
+  - composer install --prefer-dist --optimize-autoloader --quiet
 
 notifications:
   email:
@@ -13,4 +13,4 @@ notifications:
     on_success: always
     on_failure: always
 
-script: phpunit -c phpunit.xml --coverage-text
+script: vendor/bin/phpunit -c phpunit.xml --coverage-text
