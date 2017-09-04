@@ -1,7 +1,28 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: burgess.chen
- * Date: 2017/9/4
- * Time: 下午 03:31
- */
+namespace Tests;
+
+class ExampleTest extends \PHPUnit\Framework\TestCase
+{
+    /**
+     * Setup before running each test case
+     */
+    public function setUp()
+    {
+    }
+    /**
+     * Clean up after running each test case
+     */
+    public function tearDown()
+    {
+    }
+
+    /**
+     * A basic test example.
+     *
+     * @return void
+     */
+    public function testBasicTest()
+    {
+        $this->assertTrue(true);
+    }
+}
